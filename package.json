@@ -1,0 +1,48 @@
+{
+  "name": "next-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private":"true",
+  "description": "A template for custom next js project",
+  "keywords": ["nextjs", "react", "template"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nik-1207/next-template.git"
+  },
+
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --turbo",
+    "lint": "next lint",
+    "pretty": "prettier --cache --write . && sort-package-json",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.0.4",
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@types/node": "20.10.8",
+    "@types/react": "18.2.47",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.33",
+    "prettier": "^3.1.1",
+    "sort-package-json": "^2.6.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.3.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
